@@ -202,7 +202,7 @@ a {
 
 @media screen and (max-width:1240px) {
     .bold {
-        margin-right: 50px;
+        margin-right: 80px;
     }
     
     p {
@@ -234,6 +234,10 @@ a {
         margin-right: -20px;
         font-size: 30px;
     }
+
+    .bold {
+        margin-right: 90px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -254,6 +258,14 @@ a {
     #note2{
         margin-right: -30px;
         font-size: 18px;
+    }
+
+    .bold {
+        margin-right: 60px;
+    }
+
+    footer {
+        font-size: medium;
     }
 }
 
@@ -294,5 +306,23 @@ a {
     #lanote {
         font-size: 20px;
         margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    main {
+        margin-right: -30px;
+    }
+
+    footer {
+        margin-right: -30px;
+    }
+
+    header {
+        margin-right: -30px;
+    }
+
+    img {
+        width: 70px;
     }
 }
