@@ -277,6 +277,24 @@ header {
     margin-right: 20px;
   }
   
-   
+  /* responsive */
+@media screen and (max-width: 320px) {
+    header {
+        width: 550px;
+    }
+
+    .content {
+        width: auto;
+        margin-right: -220px;
+    }
+
+    div .lcf, div.menunoteenchantee, div.delice, div.palettes {
+     width: 200px;
+    }
+
+    footer {
+        width: 550px;
+    }
+}   
   /*# sourceMappingURL=style.css.map */
   
