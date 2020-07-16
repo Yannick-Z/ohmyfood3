@@ -284,7 +284,7 @@ header {
     }
 
     .content {
-        width: auto;
+        
         margin-right: -50px;
         margin-left: 30px;
     }
@@ -298,7 +298,7 @@ header {
     }
 }  
 
-@media screen and (min-width:375px) {
+@media screen and (max-device-width:375px) {
     div .lcf, div.menunoteenchantee, div.delice, div.palettes {
         width: 140px;
         
@@ -333,7 +333,7 @@ header {
      }
 }
 
-@media screen and (min-width: 426px) {
+@media screen and (min-device-width: 426px) {
   header {
     width: 592px;
   }
