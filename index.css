@@ -278,7 +278,7 @@ header {
   }
   
   /* responsive */
-@media all  and (max-device-width: 320px) {
+@media screen  and (max-device-width: 321px) {
     header {
         width: 390px;
     }
