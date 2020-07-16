@@ -278,26 +278,27 @@ header {
   }
   
   /* responsive */
-@media screen and (max-width: 320px) {
+@media all  and (max-device-width: 320px) {
     header {
-        width: 550px;
+        width: 390px;
     }
 
     .content {
         width: auto;
-        margin-right: -105px;
+        margin-right: -50px;
+        margin-left: 30px;
     }
 
     div .lcf, div.menunoteenchantee, div.delice, div.palettes {
-     width: 200px;
+     width: 140px;
     }
 
     footer {
-        width: 550px;
+        width: 390px;
     }
 }  
 
-@media screen and (max-width: 376px) {
+@media screen and (min-width:375px) {
     div .lcf, div.menunoteenchantee, div.delice, div.palettes {
         width: 140px;
         
@@ -332,7 +333,7 @@ header {
      }
 }
 
-@media screen and (max-width: 426px) {
+@media screen and (min-width: 426px) {
   header {
     width: 592px;
   }
