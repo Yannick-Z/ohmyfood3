@@ -327,5 +327,48 @@ header {
          font-size: 20px;
      }
 }
+
+@media screen and (max-width: 426px) {
+  header {
+    width: 592px;
+  }
+
+  div .lcf, div.menunoteenchantee, div.delice, div.palettes {
+    width: 250px;
+    
+ }
+
+ .content .box1 div, .content .box2 div {
+     margin-left: 50px;
+     margin-right: -35px;
+     font-size: 20px;
+ }
+
+ .menunoteenchantee h2 , .lcf h2 , .delice h2, p{
+     font-size: smaller;
+     text-align: center;
+ }
+
+ .palettes h2 {
+     font-size: smaller;
+     text-align: center;
+ }
+
+ i {
+     font-size: 5px;
+ }
+
+ footer {
+   width: 592px;
+ }
+
+.mention_legales, .mail {
+     font-size: 20px;
+ }
+
+ div.button_menu {
+   margin-left: 155px;
+ }
+}
   /*# sourceMappingURL=style.css.map */
   
