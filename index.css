@@ -278,23 +278,31 @@ header {
   }
   
   /* responsive */
-@media screen  and (max-device-width: 321px) {
+@media screen  and (max-device-width: 320px) {
     header {
-        width: 390px;
+        width: 378px;
     }
 
-    .content {
+    .box1, .box2 {
         
-        margin-right: -50px;
-        margin-left: 30px;
+        margin-right: 10px;
+        margin-left: 10px;
     }
 
     div .lcf, div.menunoteenchantee, div.delice, div.palettes {
-     width: 140px;
+    
+        margin-left: 10px;
+        margin-right: 10px;
+     
+    }
+
+    .content section {
+      width: 430px;
+      margin: 0;
     }
 
     footer {
-        width: 390px;
+        width: 378px;
     }
 }  
 
