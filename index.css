@@ -285,7 +285,7 @@ header {
 
     .content {
         width: auto;
-        margin-right: -220px;
+        margin-right: -105px;
     }
 
     div .lcf, div.menunoteenchantee, div.delice, div.palettes {
@@ -297,16 +297,20 @@ header {
     }
 }  
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 376px) {
     div .lcf, div.menunoteenchantee, div.delice, div.palettes {
         width: 140px;
         
      }
 
+     .content {
+       margin-left: 22px;
+     }
+
      .content .box1 div, .content .box2 div {
-         margin-left: 10px;
-         margin-right: 10px;
-         font-size: 20px;
+         margin-left: 20px;
+         margin-right: 20px;
+         font-size: 15px;
      }
 
      .menunoteenchantee h2 , .lcf h2 , .delice h2, p{
