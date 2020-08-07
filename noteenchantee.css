@@ -7,7 +7,7 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-color:   ;
+    
 
 }
 
@@ -43,15 +43,17 @@ i {
 
 #lanote {
     font-style: italic;
+    font-family: 'Kalam', cursive;
     
 }
 
 
  main {
-    background-color: #fae2eb;
+    background-color: #fcdfdb;
     height: auto;
+    font-family: 'Kalam', cursive;
 
-    
+ 
     
  }
 
