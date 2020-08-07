@@ -287,7 +287,9 @@ a {
     main {
         width: unset;
     }
-
+    h3 span {
+        font-size: 12px;
+    }
     img {
         width: 100px;
     }
