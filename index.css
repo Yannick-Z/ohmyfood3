@@ -304,7 +304,7 @@ header {
   }
   
   /* responsive */
-@media screen  and (max-device-width: 320px) {
+@media screen  and (max-width: 320px) {
     header {
         width: 397px;
     }
@@ -338,7 +338,7 @@ header {
     }
 }  
 
-@media screen and (max-device-width:375px) {
+@media screen and (max-width:375px) {
     div .lcf, div.menunoteenchantee, div.delice, div.palettes {
         width: 400px;
         
@@ -374,7 +374,7 @@ header {
      }
 }
 
-@media screen and (max-device-width: 425px) {
+@media screen and (max-width: 425px) {
   header {
     width: 592px;
   }
