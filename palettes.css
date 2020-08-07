@@ -26,7 +26,7 @@ header a {
 #h1_palettes {
     
     font-style: italic;
-    font-family: font-family: 'Chilanka', cursive;
+    font-family:  'Chilanka', cursive;
     font-size: 40px;
     background: -webkit-linear-gradient(#0e32de, #0c73fa, #44abf4);
     -webkit-background-clip: text;
@@ -37,7 +37,7 @@ header a {
 div p {
     font-size: 25px;
     font-style: italic;
-    font-family: font-family: 'Chilanka', cursive;
+    font-family:  'Chilanka', cursive;
     
 }
 
