@@ -253,6 +253,31 @@ header {
     
   
   } 
+
+  footer:hover  {
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+  }
+  
+  @keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+  
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+  
+    40%, 60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }
   
   footer a {
     text-decoration: none;
@@ -280,50 +305,57 @@ header {
   /* responsive */
 @media screen  and (max-device-width: 320px) {
     header {
-        width: 378px;
+        width: 397px;
     }
 
-    .box1, .box2 {
-        
-        margin-right: 10px;
-        margin-left: 10px;
+    h1 {
+      margin-left: 35px;
     }
 
     div .lcf, div.menunoteenchantee, div.delice, div.palettes {
-    
-        margin-left: 10px;
-        margin-right: 10px;
-     
+      width: 300px;
+      
+   }
+    main.content {
+      margin-left: 40px;
+
     }
 
+    .button_menu {
+      margin-left: 20px;
+    }
+
+    h2 {
+      font-size: 20px;
+    }
     .content section {
-      width: 430px;
-      margin: 0;
+      display: contents;
     }
 
     footer {
-        width: 378px;
+        width: 397px;
     }
 }  
 
 @media screen and (max-device-width:375px) {
     div .lcf, div.menunoteenchantee, div.delice, div.palettes {
-        width: 140px;
+        width: 400px;
         
      }
 
-     .content {
-       margin-left: 22px;
+     .content section{
+      
+       display: contents;
      }
 
      .content .box1 div, .content .box2 div {
          margin-left: 20px;
          margin-right: 20px;
-         font-size: 15px;
+         font-size: 20px;
      }
 
      .menunoteenchantee h2 , .lcf h2 , .delice h2, p{
-         font-size: smaller;
+         font-size: 15px;
          text-align: center;
      }
 
@@ -341,24 +373,24 @@ header {
      }
 }
 
-@media screen and (min-device-width: 426px) {
+@media screen and (max-device-width: 425px) {
   header {
     width: 592px;
   }
 
   div .lcf, div.menunoteenchantee, div.delice, div.palettes {
-    width: 250px;
+    width: 300px;
     
  }
 
  .content .box1 div, .content .box2 div {
-     margin-left: 50px;
+     margin-left: 60px;
      margin-right: -35px;
      font-size: 30px;
  }
 
  .menunoteenchantee h2 , .lcf h2 , .delice h2, p{
-     font-size: 27px;
+     font-size: 20px;
      text-align: center;
  }
 
@@ -368,7 +400,7 @@ header {
  }
 
  i {
-     font-size: 5px;
+     font-weight: 50px;
  }
 
  footer {
@@ -380,7 +412,10 @@ header {
  }
 
  div.button_menu {
-   margin-left: 155px;
+   margin-left: 190px;
+ }
+ .content section {
+   display: contents;
  }
 }
   /*# sourceMappingURL=style.css.map */
