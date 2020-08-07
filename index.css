@@ -110,9 +110,9 @@ header {
   .menunoteenchantee, .menunoteenchantee p, .menunoteenchantee h2{
     background-color: #ffccd2;
     font-style: italic;
-    font-family: cursive;
+    font-family: 'Kalam', cursive;
     margin-top: 10%;
-    font-weight: bold;
+    font-weight: 900;
     font-size: 20px;
   }
   
@@ -134,7 +134,8 @@ header {
   
   .lcf {
     background-color: #ffebee;
-    font-family: cursive;
+    font-family: 'Abel', sans-serif;
+    font-weight: bolder;
   }
   
   .lcf p {
@@ -153,7 +154,7 @@ header {
    /* delice */
    .delice {
      background-color: #F5F5F5;
-     font-family: cursive;
+     font-family: 'Chilanka', cursive;
    }
   
    .delice p {
@@ -178,7 +179,7 @@ header {
   
    .palettes {
      background-color: #FFFDE7;
-     font-family: cursive;
+     font-family: 'Chilanka', cursive;
      
    }
   
