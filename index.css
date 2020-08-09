@@ -2,6 +2,8 @@
 html, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, pre, iframe, hr, h1, h2, h3, h4, h5, h6 {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
+    
   }
   
   h1, h2, h3, h4, h5, h6 {
@@ -66,6 +68,7 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
   }
   
   .content section {
@@ -245,11 +248,12 @@ header {
   
   /* footer */
   footer {
-    height: 100px;
+    height: 95px;
     background-color: #00807a;
     margin-top: 20px;
     font-size: 30px;
     text-align: center;
+   
     
     
   
@@ -304,79 +308,36 @@ header {
   }
   
   /* responsive */
-@media screen  and (max-width: 320px) {
-    header {
-        width: 397px;
-    }
-
-    h1 {
-      margin-left: 35px;
-    }
-
-    div .lcf, div.menunoteenchantee, div.delice, div.palettes {
-      width: 300px;
-      
-   }
+  @media screen and (max-width: 2560px) {
     main.content {
-      margin-left: 40px;
-
+      height: 1800px;
     }
 
-    .button_menu {
-      margin-left: 20px;
-    }
+   
+  }
 
-    h2 {
-      font-size: 20px;
-    }
-    .content section {
-      display: contents;
-    }
 
+  @media screen and (max-width: 1024px) {
     footer {
-        width: 397px;
+      margin-top: 13%;
+     
     }
-}  
+    main.content {
+      height: 1100px;
+    }
 
-@media screen and (max-width:375px) {
-    div .lcf, div.menunoteenchantee, div.delice, div.palettes {
-        width: 400px;
-        
-     }
-
-     .content section{
-      
-       display: contents;
-     }
-
-     .content .box1 div, .content .box2 div {
-         margin-left: 20px;
-         margin-right: 20px;
-         font-size: 20px;
-     }
-
-     .menunoteenchantee h2 , .lcf h2 , .delice h2, p{
-         font-size: 15px;
-         text-align: center;
-     }
-
-     .palettes h2 {
-         font-size: smaller;
-         text-align: center;
-     }
-
-     i {
-         font-size: 5px;
-     }
-
-    .mention_legales, .mail {
-         font-size: 20px;
-     }
-}
-
+    div.button_menu {
+      margin-top: 10%;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    main.content {
+      height: 1000px;
+    }
+  }
 @media screen and (max-width: 425px) {
   header {
-    width: 592px;
+    width: 425px;
   }
 
   div .lcf, div.menunoteenchantee, div.delice, div.palettes {
@@ -384,9 +345,12 @@ header {
     
  }
 
+ main.content {
+   height: 1900px;
+ }
+
  .content .box1 div, .content .box2 div {
-     margin-left: 60px;
-     margin-right: -35px;
+     
      font-size: 30px;
  }
 
@@ -402,19 +366,90 @@ header {
 
 
  footer {
-   width: 592px;
+   width: 425px;
  }
 
 .mention_legales, .mail {
      font-size: 20px;
  }
 
- div.button_menu {
-   margin-left: 190px;
- }
  .content section {
    display: contents;
  }
 }
+
+@media screen and (max-width:375px) {
+  div .lcf, div.menunoteenchantee, div.delice, div.palettes {
+      width: 300px;
+      
+   }
+   header {
+     width: 375px;
+   }
+   .content section{
+    
+     display: contents;
+   }
+
+   .content .box1 div, .content .box2 div {
+       margin-left: 20px;
+       margin-right: 20px;
+       font-size: 20px;
+   }
+
+   .menunoteenchantee h2 , .lcf h2 , .delice h2, p{
+       font-size: 15px;
+       text-align: center;
+   }
+
+   .palettes h2 {
+       font-size: smaller;
+       text-align: center;
+   }
+
+   i {
+       font-size: 5px;
+   }
+
+  .mention_legales, .mail {
+       font-size: 20px;
+   }
+
+  footer {
+    width: 375px;
+  }
+}
+
+@media screen  and (max-width: 320px) {
+  header {
+      width: 320px;
+  }
+
+  
+
+  div .lcf, div.menunoteenchantee, div.delice, div.palettes {
+    width: 300px;
+   
+    
+ }
+
+  h2 {
+    font-size: 20px;
+  }
+  .content section {
+    display: contents;
+    
+    
+  }
+
+  footer a {
+    font-size: 10px;
+  }
+
+  footer {
+      width: 320px;
+      
+  }
+}  
   /*# sourceMappingURL=style.css.map */
   
