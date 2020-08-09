@@ -89,10 +89,9 @@ i {
     display: flex;
     width: auto;
     justify-content: space-between;
-    
-    
-    
- }
+    position: sticky;
+    bottom: 0;
+}
 
 a {
     text-decoration: none;
