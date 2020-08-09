@@ -87,6 +87,10 @@ div p {
     display: flex;
     width: auto;
     justify-content: space-between;
+    position: sticky;
+    bottom: 0;
+    right: 0;
+    left: 0;
 }
 
 a {
@@ -153,7 +157,7 @@ a {
 
     footer {
         font-size: 40px;
-        padding-right: 14%;
+        
     }
 
     h3 {
