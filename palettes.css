@@ -460,6 +460,7 @@ a {
         font-size: unset;
         padding-left: 30px;
         position: fixed;
+        height: 60px;
     }
 
     
@@ -523,6 +524,7 @@ a {
     footer {
         padding-left: 7%;
         padding-right: 0%;
+        height: 50px;
     }
     footer:hover  {
         animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
