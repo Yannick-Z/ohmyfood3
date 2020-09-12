@@ -1,471 +1,364 @@
-
-html, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, pre, iframe, hr, h1, h2, h3, h4, h5, h6 {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-    
-  }
-  
-  h1, h2, h3, h4, h5, h6 {
-    font-size: 100%;
-    font-weight: normal;
-  }
-  
-  ul {
-    list-style: none;
-  }
-  
-  button, input, select, textarea {
-    margin: 0;
-  }
-  
-  html {
-    box-sizing: border-box;
-  }
-  
-  *, *::before, *::after {
-    box-sizing: inherit;
-  }
-  
-  img, video {
-    height: auto;
-    max-width: 100%;
-  }
-  
-  iframe {
-    border: 0;
-  }
-  
-  table {
-    border-collapse: collapse;
-    border-spacing: 0;
-  }
-  
-  td, th {
-    padding: 0;
-  }
-  
-  td:not([align]), th:not([align]) {
-    text-align: left;
-  }
-
-
 header {
-    height: 100px;
-    background-color: #00807a;
-    color: #ffe02f;
-    text-align: center;
-    line-height: 89px;
-    font-size: 45px;
-    font-weight: bold;
-  }
+  background-color: #008070;
+  height: 120px;
+  width: inherit;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+header a {
+  text-decoration: none;
+}
+
+h1 {
+  color: #ffe02f;
+  text-decoration: none;
+}
+
+body {
+  width: 100%;
+  height: auto;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
   
-  .content {
-    width: 100%;
-    height: auto;
-    background-color: #FFFFFF;
-    display: flex;
+}
+
+
+
+
+
+.box {
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    
-  }
+   
+}
+
+.Content--content_menu  {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 300px;
+  height: 400px;
+  opacity: 1;
+  transition-property: opacity;
+  transition-duration: 400ms;
+}
+
+.Content--content_menu a:hover {
+  opacity: 0.5;
+  transition: opacity 400ms;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+
+
+
   
-  .content section {
-    display: flex;
-  }
-  
-  .content .box1 div, .content .box2 div {
-    margin-top: 8%;
-    margin-right: 20px;
-    margin-left: 20px;
-  }
-  
-  .content a {
-    text-decoration: none;
-  }
-  
-  .image_menu div {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    border: 1px black none;
-    box-shadow: 1px 1px 5px 1px grey;
-    width: 300px;
-    height: 400px;
-    opacity: 1;
-    transition-property: opacity;
-    transition-duration: 400ms;
-  }
-  
-  .image_menu:hover {
-    opacity: 0.5;
-    transition: opacity 400ms;
-  }
-  
-  .image_menu div:hover h2, .image_menu div:hover p {
-    transform: scale(1.5);
-    transition: transform 600ms;
-  }
-  
-  
-  .menunoteenchantee, .menunoteenchantee p, .menunoteenchantee h2{
+
+
+.menunoteenchantee {
     background-color: #ffccd2;
+    height: 300px;
+    width: 250px;
+    margin: 10% 0;
     font-style: italic;
-    font-family: 'Kalam', cursive;
-    margin-top: 10%;
-    font-weight: 900;
-    font-size: 20px;
-  }
-  
-  .menunoteenchantee i {
-    font-size: 2em;
-    background:-moz-linear-gradient(top, #e72c83 0%, #a742c6 100%); 
-          background: -webkit-linear-gradient(top, #e72c83 0%,#a742c6 100%); 
-          background: linear-gradient(to bottom, #e72c83 0%,#a742c6 100%);
-          -webkit-background-clip: text;
-          -moz-background-clip: text;
-          background-clip: text;
-         -webkit-text-fill-color:transparent;
-    
-    
-  
-  }
-  
-  /* chic à la francaise */
-  
-  .lcf {
+  font-family: 'Kalam', cursive;
+  border: 1px black none;
+  box-shadow: 1px 1px 5px 1px grey;
+
+}
+
+.menunoteenchantee h2  {
+    padding-top: 10%;
+
+}
+
+i {
+   padding-top: 20%;
+  font-size: 2em;
+  background:-moz-linear-gradient(top, #e72c83 0%, #a742c6 100%); 
+        background: -webkit-linear-gradient(top, #e72c83 0%,#a742c6 100%); 
+        background: linear-gradient(to bottom, #e72c83 0%,#a742c6 100%);
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+       -webkit-text-fill-color:transparent;
+}
+
+.lcf {
     background-color: #ffebee;
+    height: 300px;
+    width: 250px;
+    margin: 10%;
     font-family: 'Abel', sans-serif;
-    font-weight: bolder;
-  }
+  font-weight: bolder;
+  border: 1px black none;
+  box-shadow: 1px 1px 5px 1px grey;
   
-  .lcf p {
-    margin-top: 10%;
+}
+
+.lcf h2 {
+  
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: -webkit-linear-gradient(left,#EA7F0D , #8B4068 , #562ACA );
+  
+  
+       
+       
+  
+  
+  
+  
+}
+
+h2 {
+  text-decoration:none;
+  line-height: 50px;
+}
+h2:after {
+  content: '';
+  display: block;
+  margin: auto;
+  height: 1px;
+  width: 0;
+  background: transparent;
+  transition: width .5s ease, background-color .5s ease;
+}
+h2:hover:after {
+  width: 50%;
+  background: #444;
+}
+
+.delice {
+    background-color: #F5F5F5;
+    height: 300px;
+    width: 250px;
+    margin: 10% 0;
+    font-family: 'Chilanka', cursive;
+    border: 1px black none;
+  box-shadow: 1px 1px 5px 1px grey;
+  -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   background-image: -webkit-linear-gradient(left,rgba(0, 0, 255, 0.404) , blue , rgb(0, 195, 255) );
+  
+}
+
+.delice h2 {
+     -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  background-image: -webkit-linear-gradient(left,rgba(0, 0, 255, 0.404) , blue , rgb(0, 195, 255) );
+}
+
+.palettes {
+  background-color: #FFFDE7;
+  height: 300px;
+    width: 250px;
+    margin: 10%;
+    font-family: 'Chilanka', cursive;
+    border: 1px black none;
+  box-shadow: 1px 1px 5px 1px grey;
+  
+}
+
+.palettes p {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: -webkit-linear-gradient(left,rgba(0, 128, 0, 0.521) , green , rgb(0, 128, 128) );
+}
+
+.palettes h2 {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: -webkit-linear-gradient(left,rgba(0, 128, 0, 0.521) , green , rgb(0, 128, 128) );
+}
+
+h2 {
     font-size: 20px;
-    color: #EA7F0D;
-    font-weight: bold;
-  }
-   .lcf h2 {
-     font-size: 20px;
-     -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-image: -webkit-linear-gradient(left,#EA7F0D , #8B4068 , #562ACA );
-   }
-  
-   /* delice */
-   .delice {
-     background-color: #F5F5F5;
-     font-family: 'Chilanka', cursive;
-   }
-  
-   .delice p {
-     margin-top: 10%;
-     font-size: 20px;
-     font-style: italic;
-     -webkit-background-clip: text;
-     -webkit-text-fill-color: transparent;
-     background-image: -webkit-linear-gradient(left,rgba(0, 0, 255, 0.404) , blue , rgb(0, 195, 255) );
-   }
-  
-   .delice h2 {
-     font-size: 20px;
-     -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    background-image: -webkit-linear-gradient(left,rgba(0, 0, 255, 0.404) , blue , rgb(0, 195, 255) );
-    font-style: italic;
-  
-   }
-  
-   /* palette */
-  
-   .palettes {
-     background-color: #FFFDE7;
-     font-family: 'Chilanka', cursive;
-     
-   }
-  
-   .palettes p, .palettes h2 {
-     font-style: italic;
-     font-size: 20px;
-     -webkit-background-clip: text;
-     -webkit-text-fill-color: transparent;
-     background-image: -webkit-linear-gradient(left,rgba(0, 128, 0, 0.521) , green , rgb(0, 128, 128) );
-    margin-top: 10px;
-   }
-  
-   /* Prochainement */
-  
-   .button_menu {
-     width: 250px;
-     background-color: #00807a;
-     text-align: center;
-     margin-top: 20px;
-     height: 50px;
-     border-radius: 10px 10px;
-     color: #ffe02f;
+    padding-top: 30%;
+    
+}
+
+
+ /* Prochainement */
+
+ .Content--content_button p {
      font-size: 30px;
-     font-weight: 500;
+     margin: 0;
+ }
+.Content--content_button {
+
+
+ width: 250px;
+ background-color: #00807a;
+ text-align: center;
+ margin-top: 20px;
+ height: 100px;
+ border-radius: 10px 10px;
+ color: #ffe02f;
+ font-size: 30px;
+ font-weight: 500;
+ margin: 5%;
+}
+
+.Content--content_button:after {
+content: "\2026";	
+display: inline-block;
+font-size: 30px;
+overflow: hidden;
+-webkit-animation-name: suspensions;
+-webkit-animation-duration: 4s;
+-webkit-animation-timing-function: steps(4,end);
+-webkit-animation-iteration-count: infinite;
+
+}
+
+@keyframes suspensions {
+0%
+{
+    width: 0;
+}
+
+
+50%
+{
+    width: 20px;
+}
+
+
+100%
+{
+    width: 40px;
+
+}
+}
+/* footer */
+.ContactFooter {
+  background-color: #008070;
+  height: 130px;
+  padding: 0;
+  margin: 0;
+  position: sticky;
+  bottom: 0;
+  width: inherit;
   
+}
+
+.ContactFooter--mention_legale {
+  float: left;
+  font-size: 25px;
+  margin-left: 2%;
+  
+  
+  
+
+}
+.ContactFooter--mail {
+  float: right;
+  font-size: 25px;
+  margin-right: 2%;
+  
+  
+  
+  
+}
+
+.ContactFooter--contact {
+  margin-top: 5%;
+  
+  
+  
+}
+
+.ContactFooter--mention_legale:hover, .ContactFooter--mail:hover {
+  
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
   }
-  
-  .button_menu a {
-    color: #ffe02f;
+
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
   }
-  
-  .button_menu:after {
-    content: "\2026";	
-      display: inline-block;
-      font-size: 30px;
-      overflow: hidden;
-      -webkit-animation-name: suspensions;
-      -webkit-animation-duration: 1.2s;
-      -webkit-animation-timing-function: steps(4,end);
-    -webkit-animation-iteration-count: infinite;
-    
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
   }
-  
-  @keyframes suspensions {
-    0%
-      {
-          width: 0;
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+
+
+
+
+/* responsive */
+
+@media screen and (max-width: 2560px) {
+  .ContactFooter--contact {
+      margin-top: 3%;
+  }
+}
+@media screen and (max-width: 2500px) {
+  .ContactFooter--contact {
+      margin-top: 3%;
+  }
+}
+
+@media screen and (max-width: 2000px) {
+    .ContactFooter--contact {
+        margin-top: 3%;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .ContactFooter--contact {
+        margin-top: 5%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .Content--content_menu {
+        display: inline;
+    }
+
+    .lcf {
+        margin:0;
+    }
+    .palettes {
+        margin:0;
+    }
+
+    .ContactFooter--contact {
+        margin-top: 10%;
+    }
+  }
+
+  @media screen and (max-width: 350px) {
+      .ContactFooter--contact {
+          font-size: 20px;
+          margin-top: 15%;
+  }
+}
+  @media screen and (max-width: 290px ) {
+      .lcf, .palettes, .menunoteenchantee, .delice {
+          width: 200px;
       }
-  
-  
-      50%
-      {
-          width: 20px;
-      }
-  
-  
-      100%
-      {
-          width: 40px;
-      
   }
-  }
-  
-  /* footer */
-  footer {
-    height: 95px;
-    background-color: #00807a;
-    margin-top: 20px;
-    font-size: 30px;
-    text-align: center;
-   
-    
-    
-  
-  } 
-
-  footer:hover  {
-    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
-    transform: translate3d(0, 0, 0);
-    backface-visibility: hidden;
-    perspective: 1000px;
-  }
-  
-  @keyframes shake {
-    10%, 90% {
-      transform: translate3d(-1px, 0, 0);
-    }
-  
-    20%, 80% {
-      transform: translate3d(2px, 0, 0);
-    }
-  
-    30%, 50%, 70% {
-      transform: translate3d(-4px, 0, 0);
-    }
-  
-    40%, 60% {
-      transform: translate3d(4px, 0, 0);
-    }
-  }
-  
-  footer a {
-    text-decoration: none;
-    
-  }
-  
-  .mention_legales {
-    float: left;
-    margin-top: 30px;
-    font-size: 25px;
-    color: #ffe02f;
-    font-weight: 600;
-    margin-left: 20px;
-  }
-  
-  .mail {
-    float: right;
-    margin-top: 30px;
-    font-size: 25px;
-    color: #ffe02f;
-    font-weight: 600;
-    margin-right: 20px;
-  }
-  
-  /* responsive */
-  @media screen and (max-width: 2560px) {
-    main.content {
-      height: 1800px;
-    }
-}
-
-  @media screen and (max-width: 1900px) {
-    main.content {
-      height: 1400px;
-    }
-  }
-
-  @media screen and (max-width: 1500px) {
-    main.content {
-      height: 1200px;
-    }
-  }
-
-  @media screen and (max-width: 1440px) {
-    main.content {
-      height: 1026px
-    }
-  }
-
-
-  @media screen and (max-width: 1024px) {
-    footer {
-      margin-top: 13%;
-     
-    }
-    main.content {
-      height: 1100px;
-    }
-
-    div.button_menu {
-      margin-top: 10%;
-    }
-  }
-  @media screen and (max-width: 768px) {
-    main.content {
-      height: 1000px;
-    }
-  }
-@media screen and (max-width: 425px) {
-  header {
-    width: 425px;
-  }
-
-  div .lcf, div.menunoteenchantee, div.delice, div.palettes {
-    width: 300px;
-    
- }
-
- main.content {
-   height: 1900px;
- }
-
- .content .box1 div, .content .box2 div {
-     
-     font-size: 30px;
- }
-
- .menunoteenchantee h2 , .lcf h2 , .delice h2, p{
-     font-size: 20px;
-     text-align: center;
- }
-
- .palettes h2 {
-     font-size: smaller;
-     text-align: center;
- }
-
-
- footer {
-   width: 425px;
- }
-
-.mention_legales, .mail {
-     font-size: 20px;
- }
-
- .content section {
-   display: contents;
- }
-}
-
-@media screen and (max-width:375px) {
-  div .lcf, div.menunoteenchantee, div.delice, div.palettes {
-      width: 300px;
-      
-   }
-   header {
-     width: 375px;
-   }
-   .content section{
-    
-     display: contents;
-   }
-
-   .content .box1 div, .content .box2 div {
-       margin-left: 20px;
-       margin-right: 20px;
-       font-size: 20px;
-   }
-
-   .menunoteenchantee h2 , .lcf h2 , .delice h2, p{
-       font-size: 15px;
-       text-align: center;
-   }
-
-   .palettes h2 {
-       font-size: smaller;
-       text-align: center;
-   }
-
-   i {
-       font-size: 5px;
-   }
-
-  .mention_legales, .mail {
-       font-size: 20px;
-   }
-
-  footer {
-    width: 375px;
-  }
-}
-
-@media screen  and (max-width: 320px) {
-  header {
-      width: 320px;
-  }
-
-  
-
-  div .lcf, div.menunoteenchantee, div.delice, div.palettes {
-    width: 300px;
-   
-    
- }
-
-  h2 {
-    font-size: 20px;
-  }
-  .content section {
-    display: contents;
-    
-    
-  }
-
-  footer a {
-    font-size: 10px;
-  }
-
-  footer {
-      width: 320px;
-      
-  }
-}  
-  /*# sourceMappingURL=style.css.map */
-  
