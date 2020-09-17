@@ -53,6 +53,12 @@ body {
 .Content--content_menu a:hover {
   opacity: 0.5;
   transition: opacity 400ms;
+ 
+}
+
+h2:hover, p:hover {
+  -webkit-transition: all 1s ease;
+  -webkit-transform:scale(1.25);
 }
 
 
@@ -112,14 +118,6 @@ i {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-image: -webkit-linear-gradient(left,#EA7F0D , #8B4068 , #562ACA );
-  
-  
-       
-       
-  
-  
-  
-  
 }
 
 h2 {
@@ -130,7 +128,7 @@ h2:after {
   content: '';
   display: block;
   margin: auto;
-  height: 1px;
+  height: 0.8px;
   width: 0;
   background: transparent;
   transition: width .5s ease, background-color .5s ease;
@@ -186,7 +184,6 @@ h2:hover:after {
 h2 {
     font-size: 20px;
     padding-top: 30%;
-    
 }
 
 
@@ -337,7 +334,11 @@ overflow: hidden;
 @media screen and (max-width: 600px) {
     .Content--content_menu {
         display: inline;
+        
     }
+   
+
+    
 
     .lcf {
         margin:0;
