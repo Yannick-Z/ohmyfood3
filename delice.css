@@ -17,9 +17,10 @@ h1 {
   font-style: italic;
   font-family: 'Chilanka', cursive;
   font-size: 35px;
-  background: -webkit-linear-gradient(#3d923a, #82ca62, #acef75);
+  background:  -webkit-linear-gradient(#0e32de, #0c73fa, #44abf4);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  
   
 }
 
@@ -70,6 +71,7 @@ span {
   margin: 0;
   bottom: 0;
   position: sticky;
+  margin-top : 20%
   
 }
 
@@ -165,6 +167,10 @@ span {
   .ContactFooter--mention_legale, .ContactFooter--mail {
       margin-top: 3%;
   }
+
+  h2 {
+    font-size: 40px;
+  }
 }
 
 @media only screen and (max-width: 1400px) {
@@ -233,6 +239,9 @@ span {
   span {
       margin-right: -20%;
   }
+  h2 {
+    font-size: 15px;
+  }
 }
 
 
@@ -245,7 +254,7 @@ span {
 
 @media only screen and (max-width: 425px) {
   img { 
-      width: 80px;
+      width: 70px;
   }
 
   .ContactFooter--contact {
