@@ -18,7 +18,7 @@ h1 {
   font-style: italic;
   font-family: 'Chilanka', cursive;
   font-size: 35px;
-  background: -webkit-linear-gradient(#0e32de, #0c73fa, #44abf4);
+  background: -webkit-linear-gradient(#3d923a, #82ca62, #acef75);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   
@@ -46,6 +46,7 @@ header a {
 
 img {
   width: 400px;
+  height: 25px;
 }
 
 .sectionMenu--texte {
@@ -71,6 +72,7 @@ span {
   margin: 0;
   position: sticky;
   bottom: 0;
+  margin-top: 20%;
   
 }
 
@@ -218,6 +220,7 @@ span {
 @media only screen and (max-width: 780px) {
 img { 
    width: 180px;
+   height: 20px;
 }
 
 .ContactFooter--contact {
@@ -256,17 +259,21 @@ img {
 
 @media only screen and (max-width: 425px) {
 img { 
-   width: 80px;
+   width: 70px;
+   height: 14px;
 }
 
 .ContactFooter--contact {
    margin-top: 15%;
 }
+
+
 }
 
 @media only screen and (max-width: 350px) {
 img { 
    width: 60px;
+   height: 12px;
 }
 
 .ContactFooter--contact {
@@ -285,6 +292,7 @@ span {
 @media only screen and (max-width: 320px) {
 img { 
    width: 40px;
+   height:10px;
 }
 .ContactFooter--contact {
    margin-top: 20%;
