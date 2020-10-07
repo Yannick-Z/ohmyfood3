@@ -358,6 +358,16 @@ overflow: hidden;
           margin-top: 15%;
   }
 }
+
+@media screen and (max-width: 330px) {
+  .delice h2 {
+    font-size: 16px;
+  }
+
+  .ContactFooter--contact {
+    font-size: 15px;
+  }
+}
   @media screen and (max-width: 290px ) {
       .lcf, .palettes, .menunoteenchantee, .delice {
           width: 200px;
