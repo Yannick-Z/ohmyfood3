@@ -56,6 +56,18 @@ img {
  
 }
 
+.sectionMenu--texte_1 {
+  color: #c7750c ;
+}
+
+.sectionMenu--texte_2 {
+  color: #a6679a;
+}
+
+.sectionMenu--texte_3 {
+  color: #6e4bce;
+}
+
 span {
   float: right;
   font-weight: bold;
@@ -83,12 +95,14 @@ span {
   position: sticky;
   bottom: 0;
   margin-top: 20%;
+  text-decoration: none;
   
 }
 
 .ContactFooter--mention_legale {
   float: left;
   font-size: 25px;
+  margin-left: 2%;
   
   
   
@@ -97,6 +111,7 @@ span {
 .ContactFooter--mail {
   float: right;
   font-size: 25px;
+  margin-right: 2%;
   
   
   
@@ -104,7 +119,7 @@ span {
 
 .ContactFooter--contact {
   margin-top: 5%;
-  
+  text-decoration: none;
   
   
 }
