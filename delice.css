@@ -78,6 +78,7 @@ span {
 .ContactFooter--mention_legale {
   float: left;
   font-size: 25px;
+  margin-left: 2%;
   
   
   
@@ -86,6 +87,7 @@ span {
 .ContactFooter--mail {
   float: right;
   font-size: 25px;
+  margin-right: 2%;
   
   
   
